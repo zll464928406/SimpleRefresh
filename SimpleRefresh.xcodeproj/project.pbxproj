@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A232E3861DD95FB4005D5697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A232E3851DD95FB4005D5697 /* main.m */; };
+		A232E3891DD95FB4005D5697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A232E3881DD95FB4005D5697 /* AppDelegate.m */; };
+		A232E38C1DD95FB4005D5697 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A232E38B1DD95FB4005D5697 /* ViewController.m */; };
+		A232E38F1DD95FB4005D5697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A232E38D1DD95FB4005D5697 /* Main.storyboard */; };
+		A232E3911DD95FB4005D5697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A232E3901DD95FB4005D5697 /* Assets.xcassets */; };
+		A232E3941DD95FB4005D5697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A232E3921DD95FB4005D5697 /* LaunchScreen.storyboard */; };
+		A232E39D1DD961CC005D5697 /* RefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A232E39C1DD961CC005D5697 /* RefreshControl.m */; };
+		A464478460C4661BAA011724 /* libPods-SimpleRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D87829821B1DAE57B3A678C /* libPods-SimpleRefresh.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24208E61A92EA310A41B9207 /* Pods-SimpleRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRefresh/Pods-SimpleRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		5D87829821B1DAE57B3A678C /* libPods-SimpleRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A232E3811DD95FB4005D5697 /* SimpleRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A232E3851DD95FB4005D5697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A232E3871DD95FB4005D5697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A232E3881DD95FB4005D5697 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A232E38A1DD95FB4005D5697 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A232E38B1DD95FB4005D5697 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A232E38E1DD95FB4005D5697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A232E3901DD95FB4005D5697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A232E3931DD95FB4005D5697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A232E3951DD95FB4005D5697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A232E39B1DD961CC005D5697 /* RefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshControl.h; sourceTree = "<group>"; };
+		A232E39C1DD961CC005D5697 /* RefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshControl.m; sourceTree = "<group>"; };
+		CFECBE4AD88AC66BE34AA521 /* Pods-SimpleRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRefresh/Pods-SimpleRefresh.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A232E37E1DD95FB4005D5697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A464478460C4661BAA011724 /* libPods-SimpleRefresh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A232E3781DD95FB4005D5697 = {
+			isa = PBXGroup;
+			children = (
+				A232E3831DD95FB4005D5697 /* SimpleRefresh */,
+				A232E3821DD95FB4005D5697 /* Products */,
+				A69F01F673EF98F03492B306 /* Pods */,
+				B9638F7DA466BA555DED06B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A232E3821DD95FB4005D5697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A232E3811DD95FB4005D5697 /* SimpleRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A232E3831DD95FB4005D5697 /* SimpleRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				A232E3871DD95FB4005D5697 /* AppDelegate.h */,
+				A232E3881DD95FB4005D5697 /* AppDelegate.m */,
+				A232E38A1DD95FB4005D5697 /* ViewController.h */,
+				A232E38B1DD95FB4005D5697 /* ViewController.m */,
+				A232E39B1DD961CC005D5697 /* RefreshControl.h */,
+				A232E39C1DD961CC005D5697 /* RefreshControl.m */,
+				A232E38D1DD95FB4005D5697 /* Main.storyboard */,
+				A232E3901DD95FB4005D5697 /* Assets.xcassets */,
+				A232E3921DD95FB4005D5697 /* LaunchScreen.storyboard */,
+				A232E3951DD95FB4005D5697 /* Info.plist */,
+				A232E3841DD95FB4005D5697 /* Supporting Files */,
+			);
+			path = SimpleRefresh;
+			sourceTree = "<group>";
+		};
+		A232E3841DD95FB4005D5697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A232E3851DD95FB4005D5697 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A69F01F673EF98F03492B306 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24208E61A92EA310A41B9207 /* Pods-SimpleRefresh.debug.xcconfig */,
+				CFECBE4AD88AC66BE34AA521 /* Pods-SimpleRefresh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9638F7DA466BA555DED06B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D87829821B1DAE57B3A678C /* libPods-SimpleRefresh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A232E3801DD95FB4005D5697 /* SimpleRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A232E3981DD95FB4005D5697 /* Build configuration list for PBXNativeTarget "SimpleRefresh" */;
+			buildPhases = (
+				376C3A4DCF7A08855E141A49 /* [CP] Check Pods Manifest.lock */,
+				A232E37D1DD95FB4005D5697 /* Sources */,
+				A232E37E1DD95FB4005D5697 /* Frameworks */,
+				A232E37F1DD95FB4005D5697 /* Resources */,
+				945DA22E27C54A8B33F167AE /* [CP] Embed Pods Frameworks */,
+				9FF598ECA1A0799BFC1BC4A1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRefresh;
+			productName = SimpleRefresh;
+			productReference = A232E3811DD95FB4005D5697 /* SimpleRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A232E3791DD95FB4005D5697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = personer;
+				TargetAttributes = {
+					A232E3801DD95FB4005D5697 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A232E37C1DD95FB4005D5697 /* Build configuration list for PBXProject "SimpleRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A232E3781DD95FB4005D5697;
+			productRefGroup = A232E3821DD95FB4005D5697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A232E3801DD95FB4005D5697 /* SimpleRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A232E37F1DD95FB4005D5697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A232E3941DD95FB4005D5697 /* LaunchScreen.storyboard in Resources */,
+				A232E3911DD95FB4005D5697 /* Assets.xcassets in Resources */,
+				A232E38F1DD95FB4005D5697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		376C3A4DCF7A08855E141A49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		945DA22E27C54A8B33F167AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRefresh/Pods-SimpleRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF598ECA1A0799BFC1BC4A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRefresh/Pods-SimpleRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A232E37D1DD95FB4005D5697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A232E38C1DD95FB4005D5697 /* ViewController.m in Sources */,
+				A232E3891DD95FB4005D5697 /* AppDelegate.m in Sources */,
+				A232E3861DD95FB4005D5697 /* main.m in Sources */,
+				A232E39D1DD961CC005D5697 /* RefreshControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A232E38D1DD95FB4005D5697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A232E38E1DD95FB4005D5697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A232E3921DD95FB4005D5697 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A232E3931DD95FB4005D5697 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A232E3961DD95FB4005D5697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A232E3971DD95FB4005D5697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A232E3991DD95FB4005D5697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24208E61A92EA310A41B9207 /* Pods-SimpleRefresh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.personer.SimpleRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A232E39A1DD95FB4005D5697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFECBE4AD88AC66BE34AA521 /* Pods-SimpleRefresh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.personer.SimpleRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A232E37C1DD95FB4005D5697 /* Build configuration list for PBXProject "SimpleRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A232E3961DD95FB4005D5697 /* Debug */,
+				A232E3971DD95FB4005D5697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A232E3981DD95FB4005D5697 /* Build configuration list for PBXNativeTarget "SimpleRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A232E3991DD95FB4005D5697 /* Debug */,
+				A232E39A1DD95FB4005D5697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A232E3791DD95FB4005D5697 /* Project object */;
+}
